@@ -18,7 +18,7 @@ To use this code for your own portfolio website, you can download or clone the p
 ### Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/portfolio-website-template.git
+   git clone https://github.com/Anuswar/portfolio-website-template.git
    cd portfolio-website-template
    ```
 
