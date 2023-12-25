@@ -66,16 +66,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 a:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
@@ -115,7 +105,12 @@ a:hover {
 }
 
 /* =============== IMAGES AND VISUAL =============== */
-img,
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} 
+
 svg {
   display: block;
 }
@@ -131,15 +126,6 @@ svg {
   font-size: clamp(2.5rem, 0.7rem + 7.68vw, 5.5rem);
   letter-spacing: -0.028em;
   line-height: 1.1;
-}
-
-.visually-hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
 }
 
 .bottom-border {
